@@ -1,2 +1,2 @@
-include ':example', ':latte-annoations'
+include ':example', ':latte-annoations', ':mocha-annotations', ':mocha-complier', ':mocha-core', ':mocha-ec'
 rootProject.name='FastEC'

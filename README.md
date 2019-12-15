@@ -1,6 +1,8 @@
 # Android通用电商框架设计(Mocha-Framework)
 
 ## 项目主要结构图
+![](https://github.com/jackytallow/Mocha-Framework/blob/master/contrut.png)
+
 
 
 ## 模块分解
