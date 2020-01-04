@@ -1,2 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.jackytallow.mocha_core" />
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.jackytallow.mocha_core">
+
+    <application
+        android:appComponentFactory=""
+        tools:replace="android:appComponentFactory"/>
+</manifest>
