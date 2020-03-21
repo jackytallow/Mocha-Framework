@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':mocha-annoations', ':mocha-compiler', ':mocha-core', ':mocha-ec'
 rootProject.name='MochaFast'

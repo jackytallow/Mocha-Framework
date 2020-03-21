@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MochaFast.iml" filepath="$PROJECT_DIR$/MochaFast.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-annoations/mocha-annoations.iml" filepath="$PROJECT_DIR$/mocha-annoations/mocha-annoations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-compiler/mocha-compiler.iml" filepath="$PROJECT_DIR$/mocha-compiler/mocha-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-core/mocha-core.iml" filepath="$PROJECT_DIR$/mocha-core/mocha-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-ec/mocha-ec.iml" filepath="$PROJECT_DIR$/mocha-ec/mocha-ec.iml" />
     </modules>
   </component>
 </project>
