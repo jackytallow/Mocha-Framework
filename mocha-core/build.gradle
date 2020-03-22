@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
     compileSdkVersion 29
@@ -31,6 +32,20 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //Fragment依赖
+    // This is the use of androidx, if you are using the android.support: fragmentationx -> fragmentation
+    api 'me.yokeyword:fragmentationx:1.0.2'
+// To get SwipeBack feature, rely on both fragmentation & fragmentation-swipeback
+    api 'me.yokeyword:fragmentationx:1.0.2'
+// Swipeback is based on fragmentation. Refer to SwipeBackActivity/Fragment for your Customized SupportActivity/Fragment
+    api 'me.yokeyword:fragmentationx-swipeback:1.0.2'
+// To simplify the communication between Fragments.
+    api 'me.yokeyword:eventbus-activity-scope:1.1.0'
+
+   //butterKnife依赖
+    api 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
 
     api project(path: ':mocha-annoations')
 }
