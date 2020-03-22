@@ -4,14 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import net.jackytallow.mocha_core.activities.ProxyActivity;
-import net.jackytallow.mocha_core.delegates.MochaDelegate;
-
-
-public class MainActivity extends ProxyActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
-    public MochaDelegate setRootDelegate() {
-        return new MainDelegate();
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
     }
 }
