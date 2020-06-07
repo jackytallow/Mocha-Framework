@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MochaFast.iml" filepath="$PROJECT_DIR$/MochaFast.iml" group="MochaFast" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MochaFast/app" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-annoations/mocha-annoations.iml" filepath="$PROJECT_DIR$/mocha-annoations/mocha-annoations.iml" group="MochaFast/mocha-annoations" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-compiler/mocha-compiler.iml" filepath="$PROJECT_DIR$/mocha-compiler/mocha-compiler.iml" group="MochaFast/mocha-compiler" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-core/mocha-core.iml" filepath="$PROJECT_DIR$/mocha-core/mocha-core.iml" group="MochaFast/mocha-core" />
+      <module fileurl="file://$PROJECT_DIR$/mocha-ec/mocha-ec.iml" filepath="$PROJECT_DIR$/mocha-ec/mocha-ec.iml" group="MochaFast/mocha-ec" />
+    </modules>
+  </component>
+</project>

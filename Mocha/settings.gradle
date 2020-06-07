@@ -1,0 +1,6 @@
+include ':mocha-ec'
+include ':mocha-core'
+include ':mocha-compiler'
+include ':mocha-annoations'
+include ':app'
+rootProject.name = "Mocha"
